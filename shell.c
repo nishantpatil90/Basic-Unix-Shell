@@ -33,7 +33,7 @@ int history(){
   //printf("hi\n");
   fph = fopen("bash_history", "r");
   //fph = fopen("/home/nishant/.bash_history", "r");
-  // bash shell stores history in .bash_history file (in case you wounder how bash stores history)
+  // bash shell stores history in .bash_history file (in case you wounder how bash stores history).
   if(fph == NULL){
     printf("Cannot open file\n");
     return (0);
